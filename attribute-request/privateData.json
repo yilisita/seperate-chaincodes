@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Org2PrivateCollection",
+        "policy": "OR('Org2MSP.member','Org1MSP.member')",
+        "requiredPeerCount": 0,
+        "maxPeerCount": 1,
+        "blockToLive":100000000,
+        "memberOnlyRead": true,
+        "memberOnlyWrite": false,
+        "endorsementPolicy": {
+            "signaturePolicy": "OR('Org2MSP.member')"
+        }
+    }
+]
+
+ 
